@@ -1,5 +1,5 @@
 ### `Live URL`
-Open [http://localhost:3000](http://localhost:3000)
+Open [https://sheltered-springs-15829.herokuapp.com/](https://sheltered-springs-15829.herokuapp.com/)
 ### `npm i`
 To install dependencies
 
