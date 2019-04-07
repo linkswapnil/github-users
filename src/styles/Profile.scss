@@ -1,0 +1,45 @@
+.profile{
+  width: 25%;
+  float: left;
+  .name{
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .login{
+    color: #666;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  .details{
+    padding: 0px;
+    li{
+      list-style: none;
+      padding: 5px;
+      span{
+        position: relative;
+      }
+    }
+    .text{
+      margin-left: 20px;
+    }
+  }
+  .company{
+    margin-top: 25px;
+  }
+  .avatar{
+    width: 230px;
+    height: 230px;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 1;
+    overflow: hidden;
+    vertical-align: middle;
+  }
+  .icon{
+    position: absolute;
+    top:2px;
+    color: #6a737d;
+  }
+}

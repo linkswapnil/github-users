@@ -1,0 +1,58 @@
+.container {
+  width:1080px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+a{
+  color: #0366d6;
+  text-decoration: none
+}
+
+body {
+  background-color: #fff;
+  color: #24292e;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.table-list{
+  border-bottom: 1px solid #e1e4e8;
+  color: #6a737d;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  .table-list-item{
+    display: table-row;
+    list-style: none;
+    position: relative;
+    list-style: none;
+    padding: 30px;
+  }
+  .table-list-cell{
+    border-top: 1px solid #eaecef;
+    display: table-cell;
+    font-size: 12px;
+    padding: 8px 10px;
+    position: relative;
+    vertical-align: top;
+    &:first-child{
+      width: 50px;
+    }
+    .user-name{
+      vertical-align: middle;
+      font-size: 18px;
+      padding-top: 10px;
+    }
+  }
+  .avator{
+    width: 48px;
+    height: 48px;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 1;
+    overflow: hidden;
+    vertical-align: middle;
+  }
+}

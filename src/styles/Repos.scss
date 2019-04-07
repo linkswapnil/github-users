@@ -1,0 +1,40 @@
+.repos{
+  width: 75%;
+  float: left;
+  .name{
+    font-size: 20px;
+  }
+  .description{
+    font-size: 14px;
+  }
+  .details{
+    list-style: none;
+    padding: 0;
+    margin-top: 8px;
+    li{
+      display: inline-block;
+      margin-right: 16px;
+    }
+  }
+  .icon{
+    position: absolute;
+    color: #6a737d;
+  }
+  .stargazers, .forks{
+    position: relative;
+  }
+  .text{
+    margin-left: 16px;
+  }
+
+  .language{
+    border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    position: relative;
+    top: 1px;
+    width: 12px;
+    background-color: #563d7c;
+    margin-right: 4px;
+  }
+}
